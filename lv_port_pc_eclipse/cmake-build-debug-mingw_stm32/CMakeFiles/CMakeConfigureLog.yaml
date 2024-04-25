@@ -1,0 +1,643 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-m9el3i"
+      binary: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-m9el3i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-m9el3i'
+        
+        Run Build Command(s): "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_72259/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_72259.dir\\build.make CMakeFiles/cmTC_72259.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-m9el3i'
+        Building C object CMakeFiles/cmTC_72259.dir/CMakeCCompilerABI.c.obj
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_72259.dir\\CMakeCCompilerABI.c.obj -c "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_72259.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_72259.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\zoomlion\\AppData\\Local\\Temp\\ccd7MzJA.s
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_72259.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_72259.dir\\CMakeCCompilerABI.c.obj C:\\Users\\zoomlion\\AppData\\Local\\Temp\\ccd7MzJA.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_72259.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking C executable cmTC_72259.exe
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_72259.dir\\link.txt --verbose=1
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_72259.dir/objects.a
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-ar.exe qc CMakeFiles\\cmTC_72259.dir/objects.a @CMakeFiles\\cmTC_72259.dir\\objects1.rsp
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_72259.dir/objects.a -Wl,--no-whole-archive -o cmTC_72259.exe -Wl,--out-implib,libcmTC_72259.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COMPILER_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_72259.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\zoomlion\\AppData\\Local\\Temp\\cc73NqfJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_72259.exe d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\\cmTC_72259.dir/objects.a --no-whole-archive --out-implib libcmTC_72259.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_72259.dir\\build.make:99: cmTC_72259.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-m9el3i'
+        mingw32-make.exe: *** [Makefile:126: cmTC_72259/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-rkz09p"
+      binary: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-rkz09p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-rkz09p'
+        
+        Run Build Command(s): "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4af22/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4af22.dir\\build.make CMakeFiles/cmTC_4af22.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-rkz09p'
+        Building C object CMakeFiles/cmTC_4af22.dir/testCCompiler.c.obj
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_4af22.dir\\testCCompiler.c.obj -c F:\\lv_port_pc_eclipse\\cmake-build-debug-mingw_stm32\\CMakeFiles\\CMakeScratch\\TryCompile-rkz09p\\testCCompiler.c
+        Linking C executable cmTC_4af22.exe
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4af22.dir\\link.txt --verbose=1
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4af22.dir/objects.a
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-ar.exe qc CMakeFiles\\cmTC_4af22.dir/objects.a @CMakeFiles\\cmTC_4af22.dir\\objects1.rsp
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_4af22.dir/objects.a -Wl,--no-whole-archive -o cmTC_4af22.exe -Wl,--out-implib,libcmTC_4af22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_4af22.dir\\linkLibs.rsp
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_4af22.dir\\build.make:100: cmTC_4af22.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-rkz09p'
+        mingw32-make.exe: *** [Makefile:126: cmTC_4af22/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-74sqmf"
+      binary: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-74sqmf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-74sqmf'
+        
+        Run Build Command(s): "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5fd5b/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5fd5b.dir\\build.make CMakeFiles/cmTC_5fd5b.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-74sqmf'
+        Building C object CMakeFiles/cmTC_5fd5b.dir/CMakeCCompilerABI.c.obj
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_5fd5b.dir\\CMakeCCompilerABI.c.obj -c "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5fd5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_5fd5b.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\zoomlion\\AppData\\Local\\Temp\\cc9Bylif.s
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5fd5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_5fd5b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\zoomlion\\AppData\\Local\\Temp\\cc9Bylif.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5fd5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking C executable cmTC_5fd5b.exe
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5fd5b.dir\\link.txt --verbose=1
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5fd5b.dir/objects.a
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-ar.exe qc CMakeFiles\\cmTC_5fd5b.dir/objects.a @CMakeFiles\\cmTC_5fd5b.dir\\objects1.rsp
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_5fd5b.dir/objects.a -Wl,--no-whole-archive -o cmTC_5fd5b.exe -Wl,--out-implib,libcmTC_5fd5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COMPILER_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5fd5b.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\zoomlion\\AppData\\Local\\Temp\\ccfd2DRJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_5fd5b.exe d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\\cmTC_5fd5b.dir/objects.a --no-whole-archive --out-implib libcmTC_5fd5b.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_5fd5b.dir\\build.make:99: cmTC_5fd5b.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-74sqmf'
+        mingw32-make.exe: *** [Makefile:126: cmTC_5fd5b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-apj215"
+      binary: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-apj215"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-apj215'
+        
+        Run Build Command(s): "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_72315/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_72315.dir\\build.make CMakeFiles/cmTC_72315.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-apj215'
+        Building C object CMakeFiles/cmTC_72315.dir/testCCompiler.c.obj
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_72315.dir\\testCCompiler.c.obj -c F:\\lv_port_pc_eclipse\\cmake-build-debug-mingw_stm32\\CMakeFiles\\CMakeScratch\\TryCompile-apj215\\testCCompiler.c
+        Linking C executable cmTC_72315.exe
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_72315.dir\\link.txt --verbose=1
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_72315.dir/objects.a
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-ar.exe qc CMakeFiles\\cmTC_72315.dir/objects.a @CMakeFiles\\cmTC_72315.dir\\objects1.rsp
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_72315.dir/objects.a -Wl,--no-whole-archive -o cmTC_72315.exe -Wl,--out-implib,libcmTC_72315.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_72315.dir\\linkLibs.rsp
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_72315.dir\\build.make:100: cmTC_72315.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-apj215'
+        mingw32-make.exe: *** [Makefile:126: cmTC_72315/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-r1irni"
+      binary: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-r1irni"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-r1irni'
+        
+        Run Build Command(s): "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_61c8d/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_61c8d.dir\\build.make CMakeFiles/cmTC_61c8d.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-r1irni'
+        Building C object CMakeFiles/cmTC_61c8d.dir/CMakeCCompilerABI.c.obj
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles\\cmTC_61c8d.dir\\CMakeCCompilerABI.c.obj -c "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_61c8d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_61c8d.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\zoomlion\\AppData\\Local\\Temp\\ccbk94yq.s
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_61c8d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_61c8d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\zoomlion\\AppData\\Local\\Temp\\ccbk94yq.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_61c8d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking C executable cmTC_61c8d.exe
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_61c8d.dir\\link.txt --verbose=1
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_61c8d.dir/objects.a
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-ar.exe qc CMakeFiles\\cmTC_61c8d.dir/objects.a @CMakeFiles\\cmTC_61c8d.dir\\objects1.rsp
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_61c8d.dir/objects.a -Wl,--no-whole-archive -o cmTC_61c8d.exe -Wl,--out-implib,libcmTC_61c8d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COMPILER_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61c8d.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\zoomlion\\AppData\\Local\\Temp\\ccPaVeDv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=d:\\lvglsoftware\\stm32cubemx\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_61c8d.exe d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Ld:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\\cmTC_61c8d.dir/objects.a --no-whole-archive --out-implib libcmTC_61c8d.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_61c8d.dir\\build.make:99: cmTC_61c8d.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-r1irni'
+        mingw32-make.exe: *** [Makefile:126: cmTC_61c8d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: D:/LVGLSoftware/STM32CubeMX/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+    directories:
+      source: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-nh9d8n"
+      binary: "F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-nh9d8n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-nh9d8n'
+        
+        Run Build Command(s): "D:/LVGLSoftware/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_39675/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_39675.dir\\build.make CMakeFiles/cmTC_39675.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-nh9d8n'
+        Building C object CMakeFiles/cmTC_39675.dir/testCCompiler.c.obj
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe    -o CMakeFiles\\cmTC_39675.dir\\testCCompiler.c.obj -c F:\\lv_port_pc_eclipse\\cmake-build-debug-mingw_stm32\\CMakeFiles\\CMakeScratch\\TryCompile-nh9d8n\\testCCompiler.c
+        Linking C executable cmTC_39675.exe
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_39675.dir\\link.txt --verbose=1
+        "D:\\LVGLSoftware\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_39675.dir/objects.a
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-ar.exe qc CMakeFiles\\cmTC_39675.dir/objects.a @CMakeFiles\\cmTC_39675.dir\\objects1.rsp
+        D:\\LVGLSoftware\\STM32CubeMX\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_39675.dir/objects.a -Wl,--no-whole-archive -o cmTC_39675.exe -Wl,--out-implib,libcmTC_39675.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_39675.dir\\linkLibs.rsp
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+        d:/lvglsoftware/stm32cubemx/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_39675.dir\\build.make:100: cmTC_39675.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'F:/lv_port_pc_eclipse/cmake-build-debug-mingw_stm32/CMakeFiles/CMakeScratch/TryCompile-nh9d8n'
+        mingw32-make.exe: *** [Makefile:126: cmTC_39675/fast] Error 2
+        
+      exitCode: 2
+...

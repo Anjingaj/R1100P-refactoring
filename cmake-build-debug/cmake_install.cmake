@@ -1,4 +1,4 @@
-# Install script for directory: F:/R1100P/R1100P-refactoring
+# Install script for directory: C:/Users/gengy/Desktop/recoding/R1100P-refactoring
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/R1100P/R1100P-refactoring/cmake-build-debug/lv_port_pc_eclipse/lvgl/cmake_install.cmake")
+  include("C:/Users/gengy/Desktop/recoding/R1100P-refactoring/cmake-build-debug/lv_port_pc_eclipse/lvgl/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/R1100P/R1100P-refactoring/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

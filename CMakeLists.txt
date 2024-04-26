@@ -21,13 +21,22 @@ add_compile_definitions($<$<BOOL:${LV_USE_LIBJPEG_TURBO}>:LV_USE_LIBJPEG_TURBO=1
 add_compile_definitions($<$<BOOL:${LV_USE_FFMPEG}>:LV_USE_FFMPEG=1>)
 
 add_subdirectory(lv_port_pc_eclipse/lvgl)
+
 target_include_directories(lvgl PUBLIC ${PROJECT_SOURCE_DIR}/lv_port_pc_eclipse ${SDL2_INCLUDE_DIRS})
 
 file(GLOB_RECURSE INCLUDES
-        "app/*.h")
+        "app/R1100P-V5C_IN/Controller/inc/*.h"
+        "app/R1100P-V5C_IN/View/inc/*.h"
+        "app/R1100P-V5C_IN/Usart/inc/*.h"
+        "app/R1100P-V5C_IN/Model/inc/*.h"
+        "app/inc/*.h")
 file(GLOB_RECURSE SOURCES
-        "app/*.cpp"
-        "app/*.c")
+        "app/R1100P-V5C_IN/Controller/src/*.h"
+        "app/R1100P-V5C_IN/View/src/*.h"
+        "app/R1100P-V5C_IN/Usart/src/*.h"
+        "app/R1100P-V5C_IN/Model/src/*.h"
+        "app/src/*.cpp"
+        "app/src/*.c")
 
 add_executable(main main.c lv_port_pc_eclipse/mouse_cursor_icon.c ${SOURCES} ${INCLUDES})
 

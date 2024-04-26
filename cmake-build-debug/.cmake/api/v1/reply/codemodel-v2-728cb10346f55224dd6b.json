@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "lv_port_pc_eclipse/lvgl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lv_port_pc_eclipse.lvgl-Debug-07b9c51910450a4bf3c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lv_port_pc_eclipse/lvgl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lvgl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl::@bcc1e991802a18b377fb",
+					"jsonFile" : "target-lvgl-Debug-6ef5049aaac9f603727e.json",
+					"name" : "lvgl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_demos::@bcc1e991802a18b377fb",
+					"jsonFile" : "target-lvgl_demos-Debug-c390d37ff6b575467a8f.json",
+					"name" : "lvgl_demos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_examples::@bcc1e991802a18b377fb",
+					"jsonFile" : "target-lvgl_examples-Debug-ab247f562cdf27478571.json",
+					"name" : "lvgl_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_thorvg::@bcc1e991802a18b377fb",
+					"jsonFile" : "target-lvgl_thorvg-Debug-a5cc21e0cca019d0dbd2.json",
+					"name" : "lvgl_thorvg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-544ff190c8d062e610bc.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-Debug-63b8ee1728a7d8ef3155.json",
+					"name" : "run",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/cmake-build-debug",
+		"source" : "C:/Users/gengy/Desktop/recoding/R1100P-refactoring"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

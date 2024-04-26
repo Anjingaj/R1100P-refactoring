@@ -1,4 +1,4 @@
-# Install script for directory: F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse/lvgl
+# Install script for directory: C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lvgl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -46,14 +46,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files (x86)/lvgl/include/lvgl/" TYPE DIRECTORY FILES "F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse/lvgl/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/lvgl/include/lvgl/" TYPE DIRECTORY FILES "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lvgl/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "F:/R1100P/R1100P-refactoring/cmake-build-debug/lv_port_pc_eclipse/lvgl/lvgl.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/cmake-build-debug/lv_port_pc_eclipse/lvgl/lvgl.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "F:/R1100P/R1100P-refactoring/cmake-build-debug/lib/liblvgl.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/cmake-build-debug/lib/liblvgl.a")
 endif()
 

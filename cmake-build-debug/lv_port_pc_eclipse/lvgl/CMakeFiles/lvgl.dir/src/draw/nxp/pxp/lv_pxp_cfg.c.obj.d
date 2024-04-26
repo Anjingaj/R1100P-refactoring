@@ -1,6 +1,6 @@
 lv_port_pc_eclipse/lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.obj: \
- F:\R1100P\R1100P-refactoring\lv_port_pc_eclipse\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c \
- F:\R1100P\R1100P-refactoring\lv_port_pc_eclipse\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.h \
- F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_internal.h \
- F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_kconfig.h \
- F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse/lv_conf.h
+ C:\Users\gengy\Desktop\recoding\R1100P-refactoring\lv_port_pc_eclipse\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c \
+ C:\Users\gengy\Desktop\recoding\R1100P-refactoring\lv_port_pc_eclipse\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.h \
+ C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_internal.h \
+ C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_kconfig.h \
+ C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lv_conf.h

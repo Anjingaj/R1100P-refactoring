@@ -1,1 +1,1 @@
--I"F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse" -ID:/mingw64/include -ID:/mingw64/include/SDL2 -isystem "F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse/lvgl"
+-I"C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse" -I"D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/SDL2" -isystem "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lvgl"

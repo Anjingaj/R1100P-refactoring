@@ -8,15 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/R1100P/R1100P-refactoring/app/working_page_home.c" "CMakeFiles/main.dir/app/working_page_home.c.obj" "gcc" "CMakeFiles/main.dir/app/working_page_home.c.obj.d"
-  "F:/R1100P/R1100P-refactoring/lv_port_pc_eclipse/mouse_cursor_icon.c" "CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.obj" "gcc" "CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.obj.d"
-  "F:/R1100P/R1100P-refactoring/main.c" "CMakeFiles/main.dir/main.c.obj" "gcc" "CMakeFiles/main.dir/main.c.obj.d"
-  "F:/R1100P/R1100P-refactoring/app/PageManage.cpp" "CMakeFiles/main.dir/app/PageManage.cpp.obj" "gcc" "CMakeFiles/main.dir/app/PageManage.cpp.obj.d"
-  "F:/R1100P/R1100P-refactoring/app/UiRun.cpp" "CMakeFiles/main.dir/app/UiRun.cpp.obj" "gcc" "CMakeFiles/main.dir/app/UiRun.cpp.obj.d"
+  "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/src/working_page_home.c" "CMakeFiles/main.dir/app/src/working_page_home.c.obj" "gcc" "CMakeFiles/main.dir/app/src/working_page_home.c.obj.d"
+  "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/mouse_cursor_icon.c" "CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.obj" "gcc" "CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.obj.d"
+  "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/main.c" "CMakeFiles/main.dir/main.c.obj" "gcc" "CMakeFiles/main.dir/main.c.obj.d"
+  "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/src/PageManage.cpp" "CMakeFiles/main.dir/app/src/PageManage.cpp.obj" "gcc" "CMakeFiles/main.dir/app/src/PageManage.cpp.obj.d"
+  "C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/src/UiRun.cpp" "CMakeFiles/main.dir/app/src/UiRun.cpp.obj" "gcc" "CMakeFiles/main.dir/app/src/UiRun.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

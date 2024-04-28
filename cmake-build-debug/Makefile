@@ -238,6 +238,30 @@ lvgl_demos/fast:
 	$(MAKE) $(MAKESILENT) -f lv_port_pc_eclipse\lvgl\CMakeFiles\lvgl_demos.dir\build.make lv_port_pc_eclipse/lvgl/CMakeFiles/lvgl_demos.dir/build
 .PHONY : lvgl_demos/fast
 
+app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.obj: app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj
+.PHONY : app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.obj
+
+# target to build an object file
+app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj
+.PHONY : app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj
+
+app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.i: app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.i
+.PHONY : app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.i
+
+# target to preprocess a source file
+app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.i
+.PHONY : app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.i
+
+app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.s: app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.s
+.PHONY : app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.s
+
+# target to generate assembly for a file
+app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.s
+.PHONY : app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.s
+
 app/src/PageManage.obj: app/src/PageManage.cpp.obj
 .PHONY : app/src/PageManage.obj
 
@@ -376,6 +400,9 @@ help:
 	@echo ... lvgl_examples
 	@echo ... lvgl_thorvg
 	@echo ... main
+	@echo ... app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.obj
+	@echo ... app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.i
+	@echo ... app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.s
 	@echo ... app/src/PageManage.obj
 	@echo ... app/src/PageManage.i
 	@echo ... app/src/PageManage.s

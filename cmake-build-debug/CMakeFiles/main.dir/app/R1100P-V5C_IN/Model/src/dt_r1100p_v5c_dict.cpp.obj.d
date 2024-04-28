@@ -1,7 +1,6 @@
-CMakeFiles/main.dir/app/src/UiRun.cpp.obj: \
- C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\src\UiRun.cpp \
- C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/inc/UiRun.h \
- C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/inc/PageManage.h \
+CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj: \
+ C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp \
+ C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/R1100P-V5C_IN/Model/inc/dt_r1100p_v5c_dict.h \
  C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lvgl/lvgl.h \
  C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_init.h \
  D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdbool.h \
@@ -486,6 +485,4 @@ CMakeFiles/main.dir/app/src/UiRun.cpp.obj: \
  D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
  D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
- D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
- C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/inc/working_page_home.h \
- C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/R1100P-V5C_IN/Model/inc/dt_r1100p_v5c_dict.h
+ D:/clion/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc

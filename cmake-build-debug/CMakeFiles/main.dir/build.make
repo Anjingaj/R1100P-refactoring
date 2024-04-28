@@ -98,11 +98,26 @@ CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.s"
 	D:\clion\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gengy\Desktop\recoding\R1100P-refactoring\lv_port_pc_eclipse\mouse_cursor_icon.c -o CMakeFiles\main.dir\lv_port_pc_eclipse\mouse_cursor_icon.c.s
 
+CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj: C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp
+CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj"
+	D:\clion\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj -MF CMakeFiles\main.dir\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp.obj.d -o CMakeFiles\main.dir\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp.obj -c C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp
+
+CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.i"
+	D:\clion\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp > CMakeFiles\main.dir\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp.i
+
+CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.s"
+	D:\clion\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp -o CMakeFiles\main.dir\app\R1100P-V5C_IN\Model\src\dt_r1100p_v5c_dict.cpp.s
+
 CMakeFiles/main.dir/app/src/PageManage.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/app/src/PageManage.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/app/src/PageManage.cpp.obj: C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/src/PageManage.cpp
 CMakeFiles/main.dir/app/src/PageManage.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/app/src/PageManage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/app/src/PageManage.cpp.obj"
 	D:\clion\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/app/src/PageManage.cpp.obj -MF CMakeFiles\main.dir\app\src\PageManage.cpp.obj.d -o CMakeFiles\main.dir\app\src\PageManage.cpp.obj -c C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\src\PageManage.cpp
 
 CMakeFiles/main.dir/app/src/PageManage.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/main.dir/app/src/UiRun.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/app/src/UiRun.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/app/src/UiRun.cpp.obj: C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/src/UiRun.cpp
 CMakeFiles/main.dir/app/src/UiRun.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/app/src/UiRun.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/app/src/UiRun.cpp.obj"
 	D:\clion\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/app/src/UiRun.cpp.obj -MF CMakeFiles\main.dir\app\src\UiRun.cpp.obj.d -o CMakeFiles\main.dir\app\src\UiRun.cpp.obj -c C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\src\UiRun.cpp
 
 CMakeFiles/main.dir/app/src/UiRun.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/main.dir/app/src/working_page_home.c.obj: CMakeFiles/main.dir/flags.m
 CMakeFiles/main.dir/app/src/working_page_home.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/app/src/working_page_home.c.obj: C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/src/working_page_home.c
 CMakeFiles/main.dir/app/src/working_page_home.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/app/src/working_page_home.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/app/src/working_page_home.c.obj"
 	D:\clion\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/app/src/working_page_home.c.obj -MF CMakeFiles\main.dir\app\src\working_page_home.c.obj.d -o CMakeFiles\main.dir\app\src\working_page_home.c.obj -c C:\Users\gengy\Desktop\recoding\R1100P-refactoring\app\src\working_page_home.c
 
 CMakeFiles/main.dir/app/src/working_page_home.c.i: cmake_force
@@ -147,6 +162,7 @@ CMakeFiles/main.dir/app/src/working_page_home.c.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.c.obj" \
 "CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.obj" \
+"CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj" \
 "CMakeFiles/main.dir/app/src/PageManage.cpp.obj" \
 "CMakeFiles/main.dir/app/src/UiRun.cpp.obj" \
 "CMakeFiles/main.dir/app/src/working_page_home.c.obj"
@@ -156,6 +172,7 @@ main_EXTERNAL_OBJECTS =
 
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/main.c.obj
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/lv_port_pc_eclipse/mouse_cursor_icon.c.obj
+C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp.obj
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/app/src/PageManage.cpp.obj
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/app/src/UiRun.cpp.obj
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/app/src/working_page_home.c.obj
@@ -170,7 +187,7 @@ C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.e
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 C:/Users/gengy/Desktop/recoding/R1100P-refactoring/lv_port_pc_eclipse/bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable C:\Users\gengy\Desktop\recoding\R1100P-refactoring\lv_port_pc_eclipse\bin\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gengy\Desktop\recoding\R1100P-refactoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable C:\Users\gengy\Desktop\recoding\R1100P-refactoring\lv_port_pc_eclipse\bin\main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

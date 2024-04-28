@@ -10,7 +10,7 @@ extern "C"{
 #endif
 
 void uiRun();
-
+void uiHandleInit();
 #ifdef __cplusplus
 }
 #endif

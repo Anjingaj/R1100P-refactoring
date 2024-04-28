@@ -31,10 +31,14 @@ file(GLOB_RECURSE INCLUDES
         "app/R1100P-V5C_IN/Model/inc/*.h"
         "app/inc/*.h")
 file(GLOB_RECURSE SOURCES
-        "app/R1100P-V5C_IN/Controller/src/*.h"
-        "app/R1100P-V5C_IN/View/src/*.h"
-        "app/R1100P-V5C_IN/Usart/src/*.h"
-        "app/R1100P-V5C_IN/Model/src/*.h"
+        "app/R1100P-V5C_IN/Controller/src/*.c"
+        "app/R1100P-V5C_IN/View/src/*.c"
+        "app/R1100P-V5C_IN/Usart/src/*.c"
+        "app/R1100P-V5C_IN/Model/src/*.c"
+        "app/R1100P-V5C_IN/Controller/src/*.cpp"
+        "app/R1100P-V5C_IN/View/src/*.cpp"
+        "app/R1100P-V5C_IN/Usart/src/*.cpp"
+        "app/R1100P-V5C_IN/Model/src/*.cpp"
         "app/src/*.cpp"
         "app/src/*.c")
 

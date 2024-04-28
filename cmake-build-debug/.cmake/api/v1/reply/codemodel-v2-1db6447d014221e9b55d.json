@@ -70,7 +70,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "lvgl::@bcc1e991802a18b377fb",
-					"jsonFile" : "target-lvgl-Debug-6ef5049aaac9f603727e.json",
+					"jsonFile" : "target-lvgl-Debug-5c5507b8299d669ba154.json",
 					"name" : "lvgl",
 					"projectIndex" : 0
 				},
@@ -98,14 +98,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-544ff190c8d062e610bc.json",
+					"jsonFile" : "target-main-Debug-37e13e6362deec465135.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "run::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-run-Debug-63b8ee1728a7d8ef3155.json",
+					"jsonFile" : "target-run-Debug-15a5c1c91034ae6e7ef6.json",
 					"name" : "run",
 					"projectIndex" : 0
 				}

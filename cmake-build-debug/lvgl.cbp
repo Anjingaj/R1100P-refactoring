@@ -350,6 +350,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/R1100P-V5C_IN/Model/inc/dt_r1100p_v5c_dict.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/R1100P-V5C_IN/Model/src/dt_r1100p_v5c_dict.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/gengy/Desktop/recoding/R1100P-refactoring/app/inc/PageManage.h">
 			<Option target="main"/>
 		</Unit>
